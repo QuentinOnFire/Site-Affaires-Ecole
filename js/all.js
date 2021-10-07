@@ -72,7 +72,7 @@ document.getElementById("submit_all").addEventListener("submit", function () {
         <title>Affaires du Jour</title>
         `;
         var copy = `
-        <h2 class="copy">Quentin BORRAS ©</h2>
+        <h2 class="copy">InYourBag</h2>
         <hr>
         `;
 
