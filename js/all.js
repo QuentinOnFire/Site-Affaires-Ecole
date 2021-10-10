@@ -25,7 +25,7 @@ function p_i(paire, impaire){
     result -= 1;
     var paire_impaire = result
     var ladate = new Date();
-    if (ladate.getDate() === 6 || ladate.getDate() === 0){
+    if (ladate.getDay() === 6 || ladate.getDay() === 0){
         paire_impaire += 1;
     }
         paire_impaire = paire_impaire / 2;
