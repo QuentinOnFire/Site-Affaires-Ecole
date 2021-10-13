@@ -22,7 +22,7 @@ function p_i(paire, impaire){
     var oneJan = new Date(currentdate.getFullYear(),0,1);
     var numberOfDays = Math.floor((currentdate - oneJan) / (24 * 60 * 60 * 1000));
     var result = Math.ceil(( currentdate.getDay() + 1 + numberOfDays) / 7);
-    var paire_impaire = result
+    var paire_impaire = result - 1;
     var ladate = new Date();
     if (ladate.getDay() === 6 || ladate.getDay() === 0){
         paire_impaire += 1;
