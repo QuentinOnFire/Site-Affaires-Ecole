@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Choix des Affaires</title>
+</head>
+<body>
+    <div class="center">
+        <h2>InYourBag</h2>
+        <hr>
+        <br>
+        <select name="lv2" id="lv2_select">
+            <option value="" selected="selected">--Choisissez votre langue LV2--</option>
+            <option value="es">Espagnol</option>
+            <option value="al">Allemand</option>
+            <option value="it">Italien</option>
+        </select>
+        <br>
+        <br>
+        <select name="latin" id="latin_select">
+            <option value="" selected="selected">--Faites-vous latin ?--</option>
+            <option value="oui">Oui</option>
+            <option value="non">Non</option>
+        </select>
+        <br>
+        <br>
+        <select name="jour" id="jour_select">
+            <option value="" selected="select">--Choisissez le jour--</option>
+            <option value="1">Lundi</option>
+            <option value="2">Mardi</option>
+            <option value="3">Mercredi</option>
+            <option value="4">Jeudi</option>
+            <option value="5">Vendredi</option>
+        </select>
+        <br>
+        <br>
+        <form action="#" id="submit_all">
+            <input type="submit" value="Valider" id="submit_all">
+        </form>
+        <br>
+        <hr>
+    </div>
+</body>
+<footer>
+    <div class="center">
+        <p>Nous sommes le <script src="js/nom_jour.js"></script> <script src="js/nb_jour.js"></script> <script src="js/mois.js"></script> <script src="js/year.js"></script><br>
+        Semaine : <script src="js/nb_semaine.js"></script></p>
+        <div class="link_utile">
+            <button onclick="window.open(`https://www.ecoledirecte.com/`);">
+            Ecole Directe
+            </button>
+            <button onclick="window.open(`https://www.meteociel.fr/previsions/18644/bar_le_duc.htm`)">
+            Météo
+            </button>
+            <script src="js/download.js"></script>
+        </div> 
+	    <p><a href="mailto:inyourbag55@gmail.com">Me contacter !</a> inyourbag55@gmail.com</p>
+        <p><script src="js/blague.js"></script></p>
+        <img src="http://www.mon-compteur.fr/html_c01genv2-232919-1" border="0"/>
+        <div>
+            <br>
+            <b>InYourBag v1.0</b> © Quentin -
+            <a href="https://github.com/QuentinOnFire/Site-Affaires-Ecole" target="_blank">GitHub</a>
+        </div>
+        <p>Ce site Internet est encore en developpement.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" 
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" 
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        <script src="js/all.js"></script>
+</footer>
+</html>

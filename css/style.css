@@ -1,0 +1,79 @@
+body{
+    font-family: Comic Sans Ms;
+}
+select{
+    font-family: Comic Sans Ms;
+    font-size: .9rem;
+    padding: 2px 5px;
+    color: blue;
+}
+.center{
+    text-align: center;
+}
+button{
+    font-family: Comic Sans Ms;
+}
+input{
+    font-family: Comic Sans Ms;
+    font-size: .9rem;
+    padding: 2px 5px;
+    color: blue;
+}
+a{
+    color: red;
+}
+.center_{
+    font-size: 20px;
+    text-align: center;
+}
+.an{
+    color: chartreuse;
+}
+.fr{
+    color: rgb(0, 245, 143);
+}
+.ma{
+    color: red;
+}
+.es{
+    color: rgb(233, 10, 233);
+}
+.al{
+    color: rgb(233, 10, 233);
+}
+.it{
+    color: rgb(233, 10, 233);
+}
+.pc{
+    color: rgb(213, 213, 58);
+}
+.te{
+    color: black;
+}
+.svt{
+    color: rgb(0, 132, 209);
+}
+.la{
+    color: rgb(255, 217, 0);
+}
+.hge{
+    color: rgb(241, 99, 4);
+}
+.eps{
+    color: rgb(82, 55, 24);
+}
+.vdc{
+    color: rgb(140, 0, 255);
+}
+.pa{
+    color: darkolivegreen;
+}
+.mu{
+    color: indianred;
+}
+.ap{
+    color: rgb(5, 134, 5);
+}
+.copy{
+    color: black;
+}
