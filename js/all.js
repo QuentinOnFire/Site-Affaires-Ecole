@@ -24,7 +24,8 @@ function p_i(paire, impaire){
     var result = Math.ceil(( currentdate.getDay() + 1 + numberOfDays) / 7);
     var paire_impaire = result - 1;
     var ladate = new Date();
-    if (ladate.getDay() === 6 || ladate.getDay() === 0){
+    return paire;
+    /*if (ladate.getDay() === 6 || ladate.getDay() === 0){
         paire_impaire += 1;
     }
         paire_impaire = paire_impaire / 2;
@@ -33,7 +34,7 @@ function p_i(paire, impaire){
         }
         else{
             return paire;
-        }
+        }*\
 }
 
 document.getElementById("submit_all").addEventListener("submit", function () {
