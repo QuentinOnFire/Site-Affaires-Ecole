@@ -36,7 +36,7 @@ function p_i(paire, impaire){
         else{
             return paire;
         }*/
-        return paire;
+    return paire;
 }
 
 document.getElementById("submit_all").addEventListener("submit", function () {
