@@ -95,7 +95,7 @@ document.getElementById("submit_all").addEventListener("submit", function () {
 
         function afficher(){
             if (jour_value === "1"){
-                document.write(head + lundi + footer);
+                document.write(head + lundi + footer + "a");
             };
             if (jour_value === "2"){
                 document.write(head + mardi + footer);
