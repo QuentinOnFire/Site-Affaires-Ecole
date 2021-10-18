@@ -26,7 +26,7 @@ function p_i(paire, impaire){
     var nb_jour = ladate.getDay();
     console.log("paire_impaire = " + paire_impaire + "\nresult = " + result);
     console.log("getDay() = " + ladate.getDay())
-    if (nb_jour === 6 || nb_jour === 0){
+    /*if (nb_jour === 6 || nb_jour === 0){
         paire_impaire += 1;
         console.log("PASSE\npaire_impaire = " + paire_impaire);
     }
@@ -36,7 +36,8 @@ function p_i(paire, impaire){
         }
         else{
             return paire;
-        }
+        }*/
+    return paire;
 }
 
 document.getElementById("submit_all").addEventListener("submit", function () {
