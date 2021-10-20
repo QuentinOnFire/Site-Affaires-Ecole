@@ -15,7 +15,7 @@ var v_d_class = "<p class='vdc'>Vie de classe : Les papiers (facultatif*)</p>";
 var pasto = "<p class='pa'>Pastorale : Affaires de pastorale</p>";
 var musique = "<p class='mu'>Musique : 1 Cahier 24x32</p>";
 var art = "<p class='ap'>Arts Plastique : 1 Cahier de travaux pratiques + 1 pochette à rabat</p>";
-var devoir_fait = "<p style='color: black;>Devoir Fait : Pensez a regarder vos devoirs</p>"
+var devoir_fait = "<p style='color: black;'>Devoir Fait : Pensez a regarder vos devoirs</p>"
 var r = "";
  
 var ladate = new Date();
