@@ -67,7 +67,7 @@ document.getElementById("submit_all").addEventListener("submit", function () {
             var y_n_latin = true;
         }
         var lundi = maths + eps + p_i(physique, lv) + fr + h_g_emc + latin();
-        var mardi = p_i(techno, svt) + musique + fr + an + lv + maths + v_d_class + devoir_fait;
+        var mardi = p_i(techno, svt) + musique + fr + an + lv + maths + v_d_class;
         var mercredi = p_i(r, maths) + h_g_emc + svt + an;
         var jeudi = physique + techno + lv + fr + pasto + p_i(fr, r) + latin() + devoir_fait;
         var vendredi = an + art + h_g_emc + fr + maths + latin();
