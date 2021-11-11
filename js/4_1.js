@@ -31,7 +31,7 @@ console.warn(`Nous sommes a ${numberOfDays} jours du 4 janvier 2021 (debut semai
 function p_i(paire, impaire){
     result= result_base;
 
-    /*if (nb_jour === 6 || nb_jour === 0){
+    if (nb_jour === 6 || nb_jour === 0){
         result += 1;
     }
     result = result / 2;
@@ -41,7 +41,7 @@ function p_i(paire, impaire){
     else{
         console.log("PAIRE");
         return paire;
-    }*/
+    }
     return impaire;
 }
 
