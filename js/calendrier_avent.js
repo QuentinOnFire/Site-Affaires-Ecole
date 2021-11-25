@@ -43,6 +43,7 @@ function video(address, nom, citation, prenom) {
     </figure>`;
     document.write(video);
 }
+/*<iframe width="560" height="315" src="https://www.youtube.com/embed/IG6QtW_nOzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/ 
 
 function image(address, nom, citation, prenom) {
     var image = `
@@ -53,6 +54,15 @@ function image(address, nom, citation, prenom) {
             src="js/image/` + address + `">
     </figure>`;
     document.write(image);
+}
+
+function integration_video(nom, citation, prenom, integration) {
+    var video = `
+    <figure>
+        <figcaption>` + prenom + " : <br>" + nom + "<br>" + citation + `</figcaption>`
+        + integration + 
+    `</figure>`;
+    document.write(video);
 }
 
 switch (mois) {
@@ -101,7 +111,7 @@ switch (mois) {
                 break;
             case 5:
                 intro();
-                video("snk s2 resume foireux.mp4", "Résumé foireux Attaque des Titans s2 (CrayziBomb World)", "C'est drôle et si on passe une mauvaise jorunée ça remonte le moral.")
+                integration_video("Résumé foireux Attaque des Titans s2 (CrayziBomb World)", "C'est drôle et si on passe une mauvaise journéee sa remonte le moral.", "Amauri", `<iframe width="560" height="315" src="https://www.youtube.com/embed/IG6QtW_nOzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`)
                 break;
             case 6:
                 intro();
