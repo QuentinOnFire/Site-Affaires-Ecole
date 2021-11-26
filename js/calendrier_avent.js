@@ -1,7 +1,7 @@
 var ladate = new Date();
 var mois = ladate.getMonth() + 1;
 var jour = ladate.getDate();
-var intro_ = `<p>Calendrier de l'Avant du <script src="js/nom_jour.js"></script> <script src="js/nb_jour.js"></script> <script src="js/mois.js"></script></p>`
+var intro_ = `<p>Calendrier de l'Avent du <script src="js/nom_jour.js"></script> <script src="js/nb_jour.js"></script> <script src="js/mois.js"></script></p>`
 //debut le 26 novembre et fin le 24 decembre
 
 function intro() {
