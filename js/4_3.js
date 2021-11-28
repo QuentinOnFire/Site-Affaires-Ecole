@@ -1,5 +1,5 @@
 
-var an = "<p class='an'>Anglais : 1 Cahier 24x32 + le TD (facultatif*)</p>";
+var an = "<p class='an'>Anglais : 1 Cahier 24x32 + le TD (facultatif*) + le Manuel (facultatif*)</p>";
 var fr = "<p class='fr'>Francais : 1 Classeur + le TD (facultatif*)</p>";
 var maths = "<p class='ma'>Mathématiques : 1 Cahier 24x32 + le TD</p>";
 var es = "<p class='es'>Espagnol : 1 Cahier 24x32 + Manuel</p>";
