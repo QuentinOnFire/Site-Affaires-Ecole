@@ -2,7 +2,6 @@ var menu = "";
 var ladate = new Date();
 var mois = ladate.getMonth() + 1;
 var jour = ladate.getDate();
-alert("Mois : " + mois + "\nJour : " + jour);
 switch (mois) {
     case 11:
         switch (jour) {
