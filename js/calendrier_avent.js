@@ -174,6 +174,9 @@ switch (mois) {
                 intro();
                 lien("https://www.universdelabible.net/lire-la-segond-21-en-ligne/luc/2.1-20/", "Luc 2.1-20", "Parce que c'est ça Noël.", "Calixte")
                 break;
+            case 25:
+                document.write(`<h3>!!! Joyeux NOEL !!!</h3>`)
+                break;
 
         };
         break;
