@@ -27,6 +27,7 @@ var tab_mois=new Array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "J
 console.warn(`Nous sommes a ${numberOfDays} jours du 4 janvier 2021 (debut semaine 1)\nNous sommes pendant la semaine ${result_base}\nNoud sommes le ${tab_jour[nb_jour]} ${ladate.getDate()} ${tab_mois[ladate.getMonth()]} ${ladate.getFullYear()}`)
 
 function p_i(paire, impaire){
+ /*
     result= result_base;
 
     if (nb_jour === 6 || nb_jour === 0){
@@ -40,6 +41,7 @@ function p_i(paire, impaire){
         console.log("PAIRE");
         return paire;
     }
+*/
     return impaire;
 }
 
