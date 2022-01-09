@@ -19,7 +19,7 @@ var devoir_fait = "<p style='color: black;'>Devoir Fait : Pensez a regarder vos 
 var r = "";
  
 var ladate = new Date();
-var oneJan = new Date(ladate.getFullYear(),0,4);
+var oneJan = new Date(ladate.getFullYear(),0,3);
 var numberOfDays = Math.floor((ladate - oneJan) / (24 * 60 * 60 * 1000));
 var result_base = Math.ceil((1 + numberOfDays) / 7);
 var result = result_base;
@@ -29,7 +29,7 @@ var tab_mois=new Array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "J
 console.warn(`Nous sommes a ${numberOfDays} jours du 4 janvier 2021 (debut semaine 1)\nNous sommes pendant la semaine ${result_base}\nNoud sommes le ${tab_jour[nb_jour]} ${ladate.getDate()} ${tab_mois[ladate.getMonth()]} ${ladate.getFullYear()}`)
 
 function p_i(paire, impaire){
- /*
+ 
     result= result_base;
 
     if (nb_jour === 6 || nb_jour === 0){
@@ -43,7 +43,7 @@ function p_i(paire, impaire){
         console.log("PAIRE");
         return paire;
     }
-*/
+
     return impaire;
 }
 
