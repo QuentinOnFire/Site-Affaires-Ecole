@@ -20,7 +20,7 @@ var a_perso = "<p class='a_perso'>Accompagnement Perso : Affaire d'anglais</p> "
 var r = "";
  
 var ladate = new Date();
-var oneJan = new Date(ladate.getFullYear(),0,1);
+var oneJan = new Date(ladate.getFullYear(),0,3);
 var numberOfDays = Math.floor((ladate - oneJan) / (24 * 60 * 60 * 1000));
 var result_base = Math.ceil((1 + numberOfDays) / 7);
 var result = result_base;
